@@ -5,5 +5,5 @@ LABEL maintainer="kad@gmail.com"
 
 WORKDIR /usr/local/tomcat/webapps/
 COPY target/petclinic.war ./webapps/petclinic.war
-EXPOSE 8080
+
 CMD ["catalina.sh" "run"]
