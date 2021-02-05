@@ -5,6 +5,6 @@ FROM tomcat:9.0
 WORKDIR /usr/local/tomcat/
 COPY target/petclinic.war ./webapps/petclinic.war
 
-EXPOSE 7061
+EXPOSE 8080
 
 CMD ["catalina.sh" "run"]
