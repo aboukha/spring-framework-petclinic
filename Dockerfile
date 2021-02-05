@@ -1,7 +1,5 @@
-FROM tomcat:9.0
-
-# Create and change to the app directory.
-LABEL maintainer="kad@gmail.com"
-
-WORKDIR /usr/local/tomcat/webapps/
-COPY target/petclinic.war ./webapps/petclinic.war
+FROM java:8-jdk-alpine
+COPY  ./target/petclinic.war /usr/app/
+WORKDIR /usr/app
+EXPOSE 8080
+ENTRYPOINT ["java", "-jar", "petclinic.war"]
