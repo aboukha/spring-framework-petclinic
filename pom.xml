@@ -511,15 +511,15 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.cj.jdbc.Driver</jdbc.driverClassName>
-                <!--  LOCal -->
+                <!--  LOCal
                 <jdbc.url><![CDATA[jdbc:mysql://localhost:3306/petclinic?useSSL=false&amp;requireSSL=false&amp;useUnicode=true&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=CET]]></jdbc.url>
                 <jdbc.username>root</jdbc.username>
-                <jdbc.password>Petclinic123;</jdbc.password> 
+                <jdbc.password>Petclinic123;</jdbc.password> -->
                
-                <!--  GCP 
-                <jdbc.url><![CDATA[jdbc:mysql://127.0.0.1:3308/petclinic?useSSL=false&amp;requireSSL=false&amp;useUnicode=true&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=CET]]></jdbc.url>
+                <!--  GCP -->
+                <jdbc.url><![CDATA[jdbc:mysql://127.0.0.1:3308/petclinicdv?useSSL=false&amp;requireSSL=false&amp;useUnicode=true&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=CET]]></jdbc.url>
                 <jdbc.username>root</jdbc.username>
-                <jdbc.password>petclinic</jdbc.password>-->
+                <jdbc.password>petclinicdv</jdbc.password>
              
             </properties>
             <dependencies>
