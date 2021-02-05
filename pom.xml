@@ -517,7 +517,7 @@
                 <jdbc.password>Petclinic123;</jdbc.password> -->
                
                 <!--  GCP -->
-                <jdbc.url><![CDATA[jdbc:mysql://127.0.0.1:3308/petclinicdv?useSSL=false&amp;requireSSL=false&amp;useUnicode=true&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=CET]]></jdbc.url>
+                <jdbc.url><![CDATA[jdbc:mysql://127.0.0.1:3308/petclinic?useSSL=false&amp;requireSSL=false&amp;useUnicode=true&amp;allowPublicKeyRetrieval=true&amp;serverTimezone=CET]]></jdbc.url>
                 <jdbc.username>root</jdbc.username>
                 <jdbc.password>petclinicdv</jdbc.password>
              
