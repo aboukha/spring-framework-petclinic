@@ -1,3 +1,3 @@
 FROM tomcat:9.0
-
-CMD["catalina.sh","run]
+LABEL maintainer="kadoernabra@gmail.com"
+CMD ["catalina.sh","run]
