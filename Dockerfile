@@ -1,5 +1,3 @@
-FROM java:8-jdk-alpine
-COPY  ./target/petclinic.war /usr/app/
-WORKDIR /usr/app
+FROM tomcat:9.0
 
-ENTRYPOINT ["java", "-jar", "petclinic.war"]
+CMD["catalina.sh","run]
