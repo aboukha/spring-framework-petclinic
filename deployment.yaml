@@ -51,14 +51,14 @@ spec:
 
         # [START cloud_sql_proxy_k8s_volume_mount]
           # This flag specifies where the service account key can be found
-          - "-credential_file=/opt/cicd/GCP/keygke.json"
+          - "-credential_file=/home/boukhatem_projects/secrets/service_account.json"
         securityContext:
           # The default Cloud SQL proxy image runs as the
           # "nonroot" user and group (uid: 65532) by default.
           runAsNonRoot: true
         volumeMounts:
         - name: my-secrets-volume
-          mountPath: /opt/cicd/GCP
+          mountPath: /home/boukhatem_projects/secrets
           readOnly: true
           # [END cloud_sql_proxy_k8s_volume_mount]
       # [START cloud_sql_proxy_k8s_volume_secret]
