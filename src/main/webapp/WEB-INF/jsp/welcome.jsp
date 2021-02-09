@@ -5,7 +5,7 @@
 
 <petclinic:layout pageName="home">
     <h2><fmt:message key="welcome"/></h2>
-     <h1>PetClinic equipe2 modif demo</h1>
+     <h1>PetClinic equipe2 modif demo 09/02/2021</h1>
     <div class="row">
         <div class="col-md-14">
             <spring:url value="/resources/images/pets.png" htmlEscape="true" var="petsImage"/>
